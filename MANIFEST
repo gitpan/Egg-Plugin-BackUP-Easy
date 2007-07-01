@@ -1,0 +1,12 @@
+Build.PL
+Changes
+eg/Example/lib/Example.pm
+lib/Egg/Plugin/BackUP/Easy.pm
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+README
+t/00_use.t
+t/89_pod.t
+t/98_perlcritic.t
+t/99_pod_coverage.t

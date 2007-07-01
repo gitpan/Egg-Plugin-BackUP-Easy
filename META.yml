@@ -1,0 +1,21 @@
+---
+name: Egg-Plugin-BackUP-Easy
+version: 2.00
+author:
+  - 'Masatoshi Mizuno E<lt>lusheE<64>cpan.orgE<gt>'
+abstract: Preserve backup data for Egg plugin.
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Egg::Release: 2
+  Test::More: 0
+  Test::Pod: 0
+provides:
+  Egg::Plugin::BackUP::Easy:
+    file: lib/Egg/Plugin/BackUP/Easy.pm
+    version: 2.00
+generated_by: Module::Build version 0.2805
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
