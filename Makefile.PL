@@ -7,11 +7,13 @@ author       'Masatoshi Mizuno E<lt>lusheE<64>cpan.orgE<gt>';
 license      'perl';
 
 requires 'Egg::Release' => 2.00;
+requires 'File::Path'   => 2.00;
+requires 'Digest::SHA1' => 2.11;
 
 build_requires 'Test::More';
 build_requires 'Test::Pod';
-# build_requires 'Test::Perl::Critic';
-# build_requires 'Test::Pod::Coverage';
+build_requires 'Test::Perl::Critic';
+build_requires 'Test::Pod::Coverage';
 
 use_test_base;
 auto_include;

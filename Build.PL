@@ -10,11 +10,13 @@ my $builder = Module::Build->new(
   requires => {
 
     'Egg::Release'         => 2.00,
+    'File::Path'           => 2.00,
+    'Digest::SHA1'         => 2.11,
 
     'Test::More'           => 0,
     'Test::Pod'            => 0,
-#    'Test::Perl::Critic'  => 0,
-#    'Test::Pod::Coverage' => 0,
+    'Test::Perl::Critic'   => 0,
+    'Test::Pod::Coverage'  => 0,
     },
 
   );
