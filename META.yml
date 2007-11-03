@@ -1,6 +1,6 @@
 ---
 name: Egg-Plugin-BackUP-Easy
-version: 2.01
+version: 2.02
 author:
   - 'Masatoshi Mizuno E<lt>lusheE<64>cpan.orgE<gt>'
 abstract: Preserve backup data for Egg plugin.
@@ -18,7 +18,7 @@ requires:
 provides:
   Egg::Plugin::BackUP::Easy:
     file: lib/Egg/Plugin/BackUP/Easy.pm
-    version: 2.01
+    version: 2.02
 generated_by: Module::Build version 0.2805
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
